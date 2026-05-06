@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8080/api'
+const BASE_URL = 'https://team-task-manager-bczq.onrender.com'
 
 const getToken = () => localStorage.getItem('token')
 
